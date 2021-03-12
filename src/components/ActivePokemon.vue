@@ -1,6 +1,6 @@
 <template>
   <div v-if="!state.activePokemon">
-    <p v-else="state.activePokemon">
+    <p>
       <img :src="state.activePokemon.sprites.back_default" alt="" srcset="">
       {{ state.activePokemon.name }}
       Height: {{ state.activePokemon.height }} decimeters
